@@ -1,0 +1,10 @@
+//
+//  production.xcconfig
+//  Landmarks
+//
+//  Created by sharath on 18/2/2022.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+env = production

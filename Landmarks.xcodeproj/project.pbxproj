@@ -1,0 +1,1344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		461A10435D90499655E74BA0 /* libPods-Landmarks-LandmarksUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE58C3198D473C332095B371 /* libPods-Landmarks-LandmarksUITests.a */; };
+		5945541D1DEE80876DA5565F /* libPods-LandmarksTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 185A6A611FBEAF0792A31DF5 /* libPods-LandmarksTests.a */; };
+		5D387C77D1BF6F0C39551297 /* libPods-Landmarks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3CBD7E75699D3EC26DAF8B9 /* libPods-Landmarks.a */; };
+		9D085AEB27C076980092BE27 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D085AEA27C076980092BE27 /* Environment.swift */; };
+		9DABF4C627AE3492009C5241 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABF4C527AE3492009C5241 /* LandmarksApp.swift */; };
+		9DABF4C827AE3492009C5241 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABF4C727AE3492009C5241 /* ContentView.swift */; };
+		9DABF4CA27AE3493009C5241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DABF4C927AE3493009C5241 /* Assets.xcassets */; };
+		9DABF4CD27AE3493009C5241 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DABF4CC27AE3493009C5241 /* Preview Assets.xcassets */; };
+		9DABF4D727AE3494009C5241 /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABF4D627AE3494009C5241 /* LandmarksTests.swift */; };
+		9DABF4E127AE3494009C5241 /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABF4E027AE3494009C5241 /* LandmarksUITests.swift */; };
+		9DABF4E327AE3494009C5241 /* LandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABF4E227AE3494009C5241 /* LandmarksUITestsLaunchTests.swift */; };
+		9DABF4F227AE62C4009C5241 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABF4F127AE62C4009C5241 /* MapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DABF4D327AE3494009C5241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DABF4BA27AE3492009C5241 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DABF4C127AE3492009C5241;
+			remoteInfo = Landmarks;
+		};
+		9DABF4DD27AE3494009C5241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DABF4BA27AE3492009C5241 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DABF4C127AE3492009C5241;
+			remoteInfo = Landmarks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02036B859D81B4999A9D68DC /* Pods-Landmarks-LandmarksUITests.release (uat).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Landmarks-LandmarksUITests.release (uat).xcconfig"; path = "Target Support Files/Pods-Landmarks-LandmarksUITests/Pods-Landmarks-LandmarksUITests.release (uat).xcconfig"; sourceTree = "<group>"; };
+		044B1C9E81945F0CDDFDB142 /* Pods-Landmarks.release (dev).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Landmarks.release (dev).xcconfig"; path = "Target Support Files/Pods-Landmarks/Pods-Landmarks.release (dev).xcconfig"; sourceTree = "<group>"; };
+		084D438D2DB3F6884098CCC3 /* Pods-LandmarksTests.release (uat).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandmarksTests.release (uat).xcconfig"; path = "Target Support Files/Pods-LandmarksTests/Pods-LandmarksTests.release (uat).xcconfig"; sourceTree = "<group>"; };
+		185A6A611FBEAF0792A31DF5 /* libPods-LandmarksTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LandmarksTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA91940414A031CAD837242 /* Pods-Landmarks-LandmarksUITests.debug (production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Landmarks-LandmarksUITests.debug (production).xcconfig"; path = "Target Support Files/Pods-Landmarks-LandmarksUITests/Pods-Landmarks-LandmarksUITests.debug (production).xcconfig"; sourceTree = "<group>"; };
+		32E6B2759B066CC73F483D75 /* Pods-LandmarksTests.debug (dev).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandmarksTests.debug (dev).xcconfig"; path = "Target Support Files/Pods-LandmarksTests/Pods-LandmarksTests.debug (dev).xcconfig"; sourceTree = "<group>"; };
+		4308969BD3AC9FACA4A497D7 /* Pods-Landmarks.debug (uat).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Landmarks.debug (uat).xcconfig"; path = "Target Support Files/Pods-Landmarks/Pods-Landmarks.debug (uat).xcconfig"; sourceTree = "<group>"; };
+		4F63B2C3E0894C0280FA76DD /* Pods-LandmarksTests.debug (uat).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandmarksTests.debug (uat).xcconfig"; path = "Target Support Files/Pods-LandmarksTests/Pods-LandmarksTests.debug (uat).xcconfig"; sourceTree = "<group>"; };
+		656731D7F57F16C0CE3BD4EE /* Pods-LandmarksTests.debug (production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandmarksTests.debug (production).xcconfig"; path = "Target Support Files/Pods-LandmarksTests/Pods-LandmarksTests.debug (production).xcconfig"; sourceTree = "<group>"; };
+		82BA4FD5A2541E94FF500322 /* Pods-Landmarks-LandmarksUITests.release (dev).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Landmarks-LandmarksUITests.release (dev).xcconfig"; path = "Target Support Files/Pods-Landmarks-LandmarksUITests/Pods-Landmarks-LandmarksUITests.release (dev).xcconfig"; sourceTree = "<group>"; };
+		9D085AE427BF7FF80092BE27 /* dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = dev.xcconfig; sourceTree = "<group>"; };
+		9D085AE527BF801B0092BE27 /* uat.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = uat.xcconfig; sourceTree = "<group>"; };
+		9D085AE627BF802A0092BE27 /* production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = production.xcconfig; sourceTree = "<group>"; };
+		9D085AE927C0715B0092BE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9D085AEA27C076980092BE27 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		9DABF4C227AE3492009C5241 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DABF4C527AE3492009C5241 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
+		9DABF4C727AE3492009C5241 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9DABF4C927AE3493009C5241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DABF4CC27AE3493009C5241 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DABF4D227AE3494009C5241 /* LandmarksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DABF4D627AE3494009C5241 /* LandmarksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksTests.swift; sourceTree = "<group>"; };
+		9DABF4DC27AE3494009C5241 /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DABF4E027AE3494009C5241 /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
+		9DABF4E227AE3494009C5241 /* LandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9DABF4F127AE62C4009C5241 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A3CBD7E75699D3EC26DAF8B9 /* libPods-Landmarks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Landmarks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5C636AE2D8A84412CA0D56 /* Pods-Landmarks.release (uat).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Landmarks.release (uat).xcconfig"; path = "Target Support Files/Pods-Landmarks/Pods-Landmarks.release (uat).xcconfig"; sourceTree = "<group>"; };
+		AE6C2889B27EE4A46CFF559C /* Pods-LandmarksTests.release (dev).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandmarksTests.release (dev).xcconfig"; path = "Target Support Files/Pods-LandmarksTests/Pods-LandmarksTests.release (dev).xcconfig"; sourceTree = "<group>"; };
+		B5129D77886548B05B5E59C8 /* Pods-Landmarks.release (production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Landmarks.release (production).xcconfig"; path = "Target Support Files/Pods-Landmarks/Pods-Landmarks.release (production).xcconfig"; sourceTree = "<group>"; };
+		C513189B633EB339095A916C /* Pods-Landmarks-LandmarksUITests.release (production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Landmarks-LandmarksUITests.release (production).xcconfig"; path = "Target Support Files/Pods-Landmarks-LandmarksUITests/Pods-Landmarks-LandmarksUITests.release (production).xcconfig"; sourceTree = "<group>"; };
+		C768C0F8B9154F2CA43339E6 /* Pods-Landmarks-LandmarksUITests.debug (uat).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Landmarks-LandmarksUITests.debug (uat).xcconfig"; path = "Target Support Files/Pods-Landmarks-LandmarksUITests/Pods-Landmarks-LandmarksUITests.debug (uat).xcconfig"; sourceTree = "<group>"; };
+		CBEFA5EC76F1C8FFA1BF459F /* Pods-Landmarks.debug (dev).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Landmarks.debug (dev).xcconfig"; path = "Target Support Files/Pods-Landmarks/Pods-Landmarks.debug (dev).xcconfig"; sourceTree = "<group>"; };
+		CCFBBDED450DF3390C1FDF32 /* Pods-Landmarks-LandmarksUITests.debug (dev).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Landmarks-LandmarksUITests.debug (dev).xcconfig"; path = "Target Support Files/Pods-Landmarks-LandmarksUITests/Pods-Landmarks-LandmarksUITests.debug (dev).xcconfig"; sourceTree = "<group>"; };
+		CD794A5996A13697F7A9D8ED /* Pods-Landmarks.debug (production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Landmarks.debug (production).xcconfig"; path = "Target Support Files/Pods-Landmarks/Pods-Landmarks.debug (production).xcconfig"; sourceTree = "<group>"; };
+		CE58C3198D473C332095B371 /* libPods-Landmarks-LandmarksUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Landmarks-LandmarksUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCAD7D7EA1271AE72997B4E /* Pods-LandmarksTests.release (production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandmarksTests.release (production).xcconfig"; path = "Target Support Files/Pods-LandmarksTests/Pods-LandmarksTests.release (production).xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DABF4BF27AE3492009C5241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D387C77D1BF6F0C39551297 /* libPods-Landmarks.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DABF4CF27AE3494009C5241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5945541D1DEE80876DA5565F /* libPods-LandmarksTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DABF4D927AE3494009C5241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461A10435D90499655E74BA0 /* libPods-Landmarks-LandmarksUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CF7ABE158975BAFDCAE0F8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBEFA5EC76F1C8FFA1BF459F /* Pods-Landmarks.debug (dev).xcconfig */,
+				CD794A5996A13697F7A9D8ED /* Pods-Landmarks.debug (production).xcconfig */,
+				4308969BD3AC9FACA4A497D7 /* Pods-Landmarks.debug (uat).xcconfig */,
+				044B1C9E81945F0CDDFDB142 /* Pods-Landmarks.release (dev).xcconfig */,
+				AB5C636AE2D8A84412CA0D56 /* Pods-Landmarks.release (uat).xcconfig */,
+				B5129D77886548B05B5E59C8 /* Pods-Landmarks.release (production).xcconfig */,
+				CCFBBDED450DF3390C1FDF32 /* Pods-Landmarks-LandmarksUITests.debug (dev).xcconfig */,
+				1CA91940414A031CAD837242 /* Pods-Landmarks-LandmarksUITests.debug (production).xcconfig */,
+				C768C0F8B9154F2CA43339E6 /* Pods-Landmarks-LandmarksUITests.debug (uat).xcconfig */,
+				82BA4FD5A2541E94FF500322 /* Pods-Landmarks-LandmarksUITests.release (dev).xcconfig */,
+				02036B859D81B4999A9D68DC /* Pods-Landmarks-LandmarksUITests.release (uat).xcconfig */,
+				C513189B633EB339095A916C /* Pods-Landmarks-LandmarksUITests.release (production).xcconfig */,
+				32E6B2759B066CC73F483D75 /* Pods-LandmarksTests.debug (dev).xcconfig */,
+				656731D7F57F16C0CE3BD4EE /* Pods-LandmarksTests.debug (production).xcconfig */,
+				4F63B2C3E0894C0280FA76DD /* Pods-LandmarksTests.debug (uat).xcconfig */,
+				AE6C2889B27EE4A46CFF559C /* Pods-LandmarksTests.release (dev).xcconfig */,
+				084D438D2DB3F6884098CCC3 /* Pods-LandmarksTests.release (uat).xcconfig */,
+				ECCAD7D7EA1271AE72997B4E /* Pods-LandmarksTests.release (production).xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9DABF4B927AE3492009C5241 = {
+			isa = PBXGroup;
+			children = (
+				9D085AE627BF802A0092BE27 /* production.xcconfig */,
+				9D085AE527BF801B0092BE27 /* uat.xcconfig */,
+				9D085AE427BF7FF80092BE27 /* dev.xcconfig */,
+				9DABF4C427AE3492009C5241 /* Landmarks */,
+				9DABF4D527AE3494009C5241 /* LandmarksTests */,
+				9DABF4DF27AE3494009C5241 /* LandmarksUITests */,
+				9DABF4C327AE3492009C5241 /* Products */,
+				7CF7ABE158975BAFDCAE0F8A /* Pods */,
+				D0AA3D2994CFEFE136A86247 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9DABF4C327AE3492009C5241 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DABF4C227AE3492009C5241 /* Landmarks.app */,
+				9DABF4D227AE3494009C5241 /* LandmarksTests.xctest */,
+				9DABF4DC27AE3494009C5241 /* LandmarksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DABF4C427AE3492009C5241 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				9D085AE927C0715B0092BE27 /* Info.plist */,
+				9DABF4C527AE3492009C5241 /* LandmarksApp.swift */,
+				9DABF4C727AE3492009C5241 /* ContentView.swift */,
+				9DABF4C927AE3493009C5241 /* Assets.xcassets */,
+				9DABF4CB27AE3493009C5241 /* Preview Content */,
+				9DABF4F127AE62C4009C5241 /* MapView.swift */,
+				9D085AEA27C076980092BE27 /* Environment.swift */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
+		9DABF4CB27AE3493009C5241 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9DABF4CC27AE3493009C5241 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9DABF4D527AE3494009C5241 /* LandmarksTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DABF4D627AE3494009C5241 /* LandmarksTests.swift */,
+			);
+			path = LandmarksTests;
+			sourceTree = "<group>";
+		};
+		9DABF4DF27AE3494009C5241 /* LandmarksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DABF4E027AE3494009C5241 /* LandmarksUITests.swift */,
+				9DABF4E227AE3494009C5241 /* LandmarksUITestsLaunchTests.swift */,
+			);
+			path = LandmarksUITests;
+			sourceTree = "<group>";
+		};
+		D0AA3D2994CFEFE136A86247 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3CBD7E75699D3EC26DAF8B9 /* libPods-Landmarks.a */,
+				CE58C3198D473C332095B371 /* libPods-Landmarks-LandmarksUITests.a */,
+				185A6A611FBEAF0792A31DF5 /* libPods-LandmarksTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DABF4C127AE3492009C5241 /* Landmarks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DABF4E627AE3494009C5241 /* Build configuration list for PBXNativeTarget "Landmarks" */;
+			buildPhases = (
+				46A0538F1B4B7AB5B8BD8EA6 /* [CP] Check Pods Manifest.lock */,
+				9DABF4BE27AE3492009C5241 /* Sources */,
+				9DABF4BF27AE3492009C5241 /* Frameworks */,
+				9DABF4C027AE3492009C5241 /* Resources */,
+				A6BE7BC16F26D94F71F40912 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Landmarks;
+			productName = Landmarks;
+			productReference = 9DABF4C227AE3492009C5241 /* Landmarks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DABF4D127AE3494009C5241 /* LandmarksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DABF4E927AE3494009C5241 /* Build configuration list for PBXNativeTarget "LandmarksTests" */;
+			buildPhases = (
+				D8D64FC56EB3A47959B182F0 /* [CP] Check Pods Manifest.lock */,
+				9DABF4CE27AE3494009C5241 /* Sources */,
+				9DABF4CF27AE3494009C5241 /* Frameworks */,
+				9DABF4D027AE3494009C5241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DABF4D427AE3494009C5241 /* PBXTargetDependency */,
+			);
+			name = LandmarksTests;
+			productName = LandmarksTests;
+			productReference = 9DABF4D227AE3494009C5241 /* LandmarksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DABF4DB27AE3494009C5241 /* LandmarksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DABF4EC27AE3494009C5241 /* Build configuration list for PBXNativeTarget "LandmarksUITests" */;
+			buildPhases = (
+				B948E2CA9F6A35180AD9B130 /* [CP] Check Pods Manifest.lock */,
+				9DABF4D827AE3494009C5241 /* Sources */,
+				9DABF4D927AE3494009C5241 /* Frameworks */,
+				9DABF4DA27AE3494009C5241 /* Resources */,
+				070A5A61923D5690EAD15EDC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DABF4DE27AE3494009C5241 /* PBXTargetDependency */,
+			);
+			name = LandmarksUITests;
+			productName = LandmarksUITests;
+			productReference = 9DABF4DC27AE3494009C5241 /* LandmarksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DABF4BA27AE3492009C5241 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					9DABF4C127AE3492009C5241 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					9DABF4D127AE3494009C5241 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9DABF4C127AE3492009C5241;
+					};
+					9DABF4DB27AE3494009C5241 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9DABF4C127AE3492009C5241;
+					};
+				};
+			};
+			buildConfigurationList = 9DABF4BD27AE3492009C5241 /* Build configuration list for PBXProject "Landmarks" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DABF4B927AE3492009C5241;
+			productRefGroup = 9DABF4C327AE3492009C5241 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DABF4C127AE3492009C5241 /* Landmarks */,
+				9DABF4D127AE3494009C5241 /* LandmarksTests */,
+				9DABF4DB27AE3494009C5241 /* LandmarksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DABF4C027AE3492009C5241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DABF4CD27AE3493009C5241 /* Preview Assets.xcassets in Resources */,
+				9DABF4CA27AE3493009C5241 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DABF4D027AE3494009C5241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DABF4DA27AE3494009C5241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		070A5A61923D5690EAD15EDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Landmarks-LandmarksUITests/Pods-Landmarks-LandmarksUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Landmarks-LandmarksUITests/Pods-Landmarks-LandmarksUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Landmarks-LandmarksUITests/Pods-Landmarks-LandmarksUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46A0538F1B4B7AB5B8BD8EA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Landmarks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6BE7BC16F26D94F71F40912 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Landmarks/Pods-Landmarks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Landmarks/Pods-Landmarks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Landmarks/Pods-Landmarks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B948E2CA9F6A35180AD9B130 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Landmarks-LandmarksUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8D64FC56EB3A47959B182F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LandmarksTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DABF4BE27AE3492009C5241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DABF4C827AE3492009C5241 /* ContentView.swift in Sources */,
+				9D085AEB27C076980092BE27 /* Environment.swift in Sources */,
+				9DABF4F227AE62C4009C5241 /* MapView.swift in Sources */,
+				9DABF4C627AE3492009C5241 /* LandmarksApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DABF4CE27AE3494009C5241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DABF4D727AE3494009C5241 /* LandmarksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DABF4D827AE3494009C5241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DABF4E327AE3494009C5241 /* LandmarksUITestsLaunchTests.swift in Sources */,
+				9DABF4E127AE3494009C5241 /* LandmarksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DABF4D427AE3494009C5241 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DABF4C127AE3492009C5241 /* Landmarks */;
+			targetProxy = 9DABF4D327AE3494009C5241 /* PBXContainerItemProxy */;
+		};
+		9DABF4DE27AE3494009C5241 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DABF4C127AE3492009C5241 /* Landmarks */;
+			targetProxy = 9DABF4DD27AE3494009C5241 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9D085AD427BF451E0092BE27 /* Debug (uat) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D085AE527BF801B0092BE27 /* uat.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug (uat)";
+		};
+		9D085AD527BF451E0092BE27 /* Debug (uat) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4308969BD3AC9FACA4A497D7 /* Pods-Landmarks.debug (uat).xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development: Kaiseki Kaiseki (69735RF843)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = G9FR8E2WD6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Landmarks/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.uat.test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug (uat)";
+		};
+		9D085AD627BF451E0092BE27 /* Debug (uat) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F63B2C3E0894C0280FA76DD /* Pods-LandmarksTests.debug (uat).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.LandmarksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarks.app/Landmarks";
+			};
+			name = "Debug (uat)";
+		};
+		9D085AD727BF451E0092BE27 /* Debug (uat) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C768C0F8B9154F2CA43339E6 /* Pods-Landmarks-LandmarksUITests.debug (uat).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.LandmarksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Landmarks;
+			};
+			name = "Debug (uat)";
+		};
+		9D085AD827BF452F0092BE27 /* Debug (production) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D085AE627BF802A0092BE27 /* production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug (production)";
+		};
+		9D085AD927BF452F0092BE27 /* Debug (production) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD794A5996A13697F7A9D8ED /* Pods-Landmarks.debug (production).xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development: Kaiseki Kaiseki (69735RF843)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = G9FR8E2WD6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Landmarks/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug (production)";
+		};
+		9D085ADA27BF452F0092BE27 /* Debug (production) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 656731D7F57F16C0CE3BD4EE /* Pods-LandmarksTests.debug (production).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.LandmarksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarks.app/Landmarks";
+			};
+			name = "Debug (production)";
+		};
+		9D085ADB27BF452F0092BE27 /* Debug (production) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CA91940414A031CAD837242 /* Pods-Landmarks-LandmarksUITests.debug (production).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.LandmarksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Landmarks;
+			};
+			name = "Debug (production)";
+		};
+		9D085ADC27BF45480092BE27 /* Release (uat) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D085AE527BF801B0092BE27 /* uat.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release (uat)";
+		};
+		9D085ADD27BF45480092BE27 /* Release (uat) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB5C636AE2D8A84412CA0D56 /* Pods-Landmarks.release (uat).xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = G9FR8E2WD6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Landmarks/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.uat.test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release (uat)";
+		};
+		9D085ADE27BF45480092BE27 /* Release (uat) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 084D438D2DB3F6884098CCC3 /* Pods-LandmarksTests.release (uat).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.LandmarksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "59e096f1-3a18-455f-8f73-4316b9b867ba";
+				PROVISIONING_PROFILE_SPECIFIER = "test-dev";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarks.app/Landmarks";
+			};
+			name = "Release (uat)";
+		};
+		9D085ADF27BF45480092BE27 /* Release (uat) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02036B859D81B4999A9D68DC /* Pods-Landmarks-LandmarksUITests.release (uat).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.LandmarksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "59e096f1-3a18-455f-8f73-4316b9b867ba";
+				PROVISIONING_PROFILE_SPECIFIER = "test-dev";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Landmarks;
+			};
+			name = "Release (uat)";
+		};
+		9D085AE027BF45540092BE27 /* Release (production) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D085AE627BF802A0092BE27 /* production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release (production)";
+		};
+		9D085AE127BF45540092BE27 /* Release (production) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5129D77886548B05B5E59C8 /* Pods-Landmarks.release (production).xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = G9FR8E2WD6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Landmarks/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release (production)";
+		};
+		9D085AE227BF45540092BE27 /* Release (production) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECCAD7D7EA1271AE72997B4E /* Pods-LandmarksTests.release (production).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.LandmarksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "59e096f1-3a18-455f-8f73-4316b9b867ba";
+				PROVISIONING_PROFILE_SPECIFIER = "test-dev";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarks.app/Landmarks";
+			};
+			name = "Release (production)";
+		};
+		9D085AE327BF45540092BE27 /* Release (production) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C513189B633EB339095A916C /* Pods-Landmarks-LandmarksUITests.release (production).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.LandmarksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "59e096f1-3a18-455f-8f73-4316b9b867ba";
+				PROVISIONING_PROFILE_SPECIFIER = "test-dev";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Landmarks;
+			};
+			name = "Release (production)";
+		};
+		9DABF4E427AE3494009C5241 /* Debug (dev) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D085AE427BF7FF80092BE27 /* dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug (dev)";
+		};
+		9DABF4E527AE3494009C5241 /* Release (dev) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D085AE427BF7FF80092BE27 /* dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release (dev)";
+		};
+		9DABF4E727AE3494009C5241 /* Debug (dev) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBEFA5EC76F1C8FFA1BF459F /* Pods-Landmarks.debug (dev).xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development: Kaiseki Kaiseki (69735RF843)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = G9FR8E2WD6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Landmarks/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.dev.test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug (dev)";
+		};
+		9DABF4E827AE3494009C5241 /* Release (dev) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 044B1C9E81945F0CDDFDB142 /* Pods-Landmarks.release (dev).xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = G9FR8E2WD6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Landmarks/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.dev.test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "test-dev-adhoc";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release (dev)";
+		};
+		9DABF4EA27AE3494009C5241 /* Debug (dev) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32E6B2759B066CC73F483D75 /* Pods-LandmarksTests.debug (dev).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.LandmarksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarks.app/Landmarks";
+			};
+			name = "Debug (dev)";
+		};
+		9DABF4EB27AE3494009C5241 /* Release (dev) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE6C2889B27EE4A46CFF559C /* Pods-LandmarksTests.release (dev).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.LandmarksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "59e096f1-3a18-455f-8f73-4316b9b867ba";
+				PROVISIONING_PROFILE_SPECIFIER = "test-dev";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarks.app/Landmarks";
+			};
+			name = "Release (dev)";
+		};
+		9DABF4ED27AE3494009C5241 /* Debug (dev) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCFBBDED450DF3390C1FDF32 /* Pods-Landmarks-LandmarksUITests.debug (dev).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.LandmarksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Landmarks;
+			};
+			name = "Debug (dev)";
+		};
+		9DABF4EE27AE3494009C5241 /* Release (dev) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82BA4FD5A2541E94FF500322 /* Pods-Landmarks-LandmarksUITests.release (dev).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.LandmarksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "59e096f1-3a18-455f-8f73-4316b9b867ba";
+				PROVISIONING_PROFILE_SPECIFIER = "test-dev";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Landmarks;
+			};
+			name = "Release (dev)";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DABF4BD27AE3492009C5241 /* Build configuration list for PBXProject "Landmarks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DABF4E427AE3494009C5241 /* Debug (dev) */,
+				9D085AD827BF452F0092BE27 /* Debug (production) */,
+				9D085AD427BF451E0092BE27 /* Debug (uat) */,
+				9DABF4E527AE3494009C5241 /* Release (dev) */,
+				9D085ADC27BF45480092BE27 /* Release (uat) */,
+				9D085AE027BF45540092BE27 /* Release (production) */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release (dev)";
+		};
+		9DABF4E627AE3494009C5241 /* Build configuration list for PBXNativeTarget "Landmarks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DABF4E727AE3494009C5241 /* Debug (dev) */,
+				9D085AD927BF452F0092BE27 /* Debug (production) */,
+				9D085AD527BF451E0092BE27 /* Debug (uat) */,
+				9DABF4E827AE3494009C5241 /* Release (dev) */,
+				9D085ADD27BF45480092BE27 /* Release (uat) */,
+				9D085AE127BF45540092BE27 /* Release (production) */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release (dev)";
+		};
+		9DABF4E927AE3494009C5241 /* Build configuration list for PBXNativeTarget "LandmarksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DABF4EA27AE3494009C5241 /* Debug (dev) */,
+				9D085ADA27BF452F0092BE27 /* Debug (production) */,
+				9D085AD627BF451E0092BE27 /* Debug (uat) */,
+				9DABF4EB27AE3494009C5241 /* Release (dev) */,
+				9D085ADE27BF45480092BE27 /* Release (uat) */,
+				9D085AE227BF45540092BE27 /* Release (production) */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release (dev)";
+		};
+		9DABF4EC27AE3494009C5241 /* Build configuration list for PBXNativeTarget "LandmarksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DABF4ED27AE3494009C5241 /* Debug (dev) */,
+				9D085ADB27BF452F0092BE27 /* Debug (production) */,
+				9D085AD727BF451E0092BE27 /* Debug (uat) */,
+				9DABF4EE27AE3494009C5241 /* Release (dev) */,
+				9D085ADF27BF45480092BE27 /* Release (uat) */,
+				9D085AE327BF45540092BE27 /* Release (production) */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release (dev)";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DABF4BA27AE3492009C5241 /* Project object */;
+}
